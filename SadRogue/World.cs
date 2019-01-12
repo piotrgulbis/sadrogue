@@ -22,6 +22,11 @@ namespace SadRogue
 
         public World()
         {
+
+        }
+
+        public void Init()
+        {
             CreateMap();
             CreatePlayer();
             CreateNPC();

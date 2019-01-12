@@ -65,6 +65,7 @@ namespace SadRogue
             ActionManager = new ActionManager();
 
             World = new World();
+            World.Init();
 
             UIManager.Init();
 
